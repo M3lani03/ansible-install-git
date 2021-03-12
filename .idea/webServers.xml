@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="59193d6e-ec43-47b4-9932-39b7e4339212" name="ansible-install-git">
+        <fileTransfer accessType="SFTP" host="170.75.165.209" port="22" sshConfigId="b2275c28-5cc0-4d10-9698-f67a10c71663" sshConfig="centos@170.75.165.209:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="9e5641ea-c39d-413d-8ac7-4aec33df72fe" name="remote">
+        <fileTransfer accessType="SFTP" host="170.75.170.31" port="22" sshConfigId="76a1c3c4-cf81-43e0-98ac-9c5fb4c2486d" sshConfig="centos@170.75.170.31:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
